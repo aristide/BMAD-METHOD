@@ -5,17 +5,17 @@
 ---
 # Story identification
 story_id: "{{story_id}}"
-epic_num: {{epic_num}}
-story_num: {{story_num}}
+epic_num: "{{epic_num}}"
+story_num: "{{story_num}}"
 
 # Execution mode
-mode: "interactive"  # or "batch"
+mode: "interactive" # or "batch"
 
 # Progress tracking
 stepsCompleted: []
 lastStep: 0
 currentStep: 0
-status: "not_started"  # not_started, initializing, in_progress, completing, completed, failed
+status: "not_started" # not_started, initializing, in_progress, completing, completed, failed
 
 # Timestamps
 started_at: null

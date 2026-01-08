@@ -26,12 +26,12 @@ modes:
     description: "Human-in-the-loop with menu navigation between steps"
     checkpoint_on_failure: true
     requires_approval: true
-    fresh_context_for_review: false  # Role switch instead
+    fresh_context_for_review: false # Role switch instead
   batch:
     description: "Unattended execution with YOLO mode"
     checkpoint_on_failure: true
     requires_approval: false
-    fresh_context_for_review: true   # Checkpoint before code review
+    fresh_context_for_review: true # Checkpoint before code review
     fail_fast: true
 
 # Agent role definitions (loaded once, switched as needed)
@@ -67,7 +67,7 @@ steps:
     description: "Resume pipeline from last completed step"
     agent: null
     quality_gate: false
-    conditional: true  # Only if resuming
+    conditional: true # Only if resuming
 
   - step: 2
     file: "{steps_path}/step-02-create-story.md"
@@ -108,7 +108,7 @@ steps:
     description: "Adversarial code review finding 3-10 issues"
     agent: dev
     quality_gate: true
-    requires_fresh_context: true  # In batch mode, checkpoint here
+    requires_fresh_context: true # In batch mode, checkpoint here
     checklist: "{checklists_path}/code-review.md"
 
   - step: 7
@@ -131,26 +131,26 @@ input_file_patterns:
     description: "Story file being developed"
     pattern: "{sprint_artifacts}/story-{{epic_num}}-{{story_num}}.md"
     load_strategy: "FULL_LOAD"
-    cache: true  # Keep in memory across steps
+    cache: true # Keep in memory across steps
 
   epics:
     description: "Epic definitions with BDD scenarios"
     whole: "{output_folder}/epic*.md"
     sharded: "{output_folder}/epics/*.md"
-    load_strategy: "SELECTIVE_LOAD"  # Only current epic
+    load_strategy: "SELECTIVE_LOAD" # Only current epic
 
   architecture:
     description: "Architecture decisions and constraints"
     whole: "{output_folder}/architecture.md"
     sharded: "{output_folder}/architecture/*.md"
-    load_strategy: "INDEX_GUIDED"  # Use index for section selection
+    load_strategy: "INDEX_GUIDED" # Use index for section selection
     sections_needed: ["tech_stack", "data_model", "api_patterns"]
 
   prd:
     description: "Product requirements"
     whole: "{output_folder}/prd.md"
     sharded: "{output_folder}/prd/*.md"
-    load_strategy: "SELECTIVE_LOAD"  # Only relevant sections
+    load_strategy: "SELECTIVE_LOAD" # Only relevant sections
 
   project_context:
     description: "Critical rules and patterns"

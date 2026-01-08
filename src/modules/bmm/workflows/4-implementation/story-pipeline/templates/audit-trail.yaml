@@ -8,7 +8,7 @@ pipeline_version: "story-pipeline-v2.0"
 
 # Story identification
 story_id: "{{story_id}}"
-epic_num: {{epic_num}}
+epic_num: "{{epic_num}}"
 story_title: "{{story_title}}"
 
 # Execution summary
@@ -54,16 +54,16 @@ steps:
       - "{{query_1}}"
       - "{{query_2}}"
     output: "{{story_file_path}}"
-    acceptance_criteria_count: {{count}}
+    acceptance_criteria_count: "{{count}}"
 
   - step: 3
     name: "Validate Story"
     status: "{{status}}"
     duration: "{{duration}}"
     agent: "sm"
-    issues_found: {{count}}
-    issues_fixed: {{count}}
-    quality_score: {{score}}
+    issues_found: "{{count}}"
+    issues_fixed: "{{count}}"
+    quality_score: "{{score}}"
     validation_areas:
       - "AC structure"
       - "Testability"
@@ -75,25 +75,25 @@ steps:
     status: "{{status}}"
     duration: "{{duration}}"
     agent: "tea"
-    tests_created: {{count}}
+    tests_created: "{{count}}"
     test_files:
       - "{{path}}"
     factories_created:
       - "{{factory}}"
     fixtures_created:
       - "{{fixture}}"
-    data_testids_documented: {{count}}
+    data_testids_documented: "{{count}}"
 
   - step: 5
     name: "Implement (Green Phase)"
     status: "{{status}}"
     duration: "{{duration}}"
     agent: "dev"
-    files_modified: {{count}}
+    files_modified: "{{count}}"
     migrations_applied:
       - "{{migration}}"
     test_results:
-      passed: {{count}}
+      passed: "{{count}}"
       failed: 0
     lint_status: "clean"
     build_status: "success"
@@ -104,27 +104,27 @@ steps:
     duration: "{{duration}}"
     agent: "dev"
     review_type: "adversarial"
-    issues_found: {{count}}
-    issues_fixed: {{count}}
+    issues_found: "{{count}}"
+    issues_fixed: "{{count}}"
     categories_reviewed:
       security:
-        issues: {{count}}
-        fixed: {{count}}
+        issues: "{{count}}"
+        fixed: "{{count}}"
       performance:
-        issues: {{count}}
-        fixed: {{count}}
+        issues: "{{count}}"
+        fixed: "{{count}}"
       error_handling:
-        issues: {{count}}
-        fixed: {{count}}
+        issues: "{{count}}"
+        fixed: "{{count}}"
       testing:
-        issues: {{count}}
-        fixed: {{count}}
+        issues: "{{count}}"
+        fixed: "{{count}}"
       code_quality:
-        issues: {{count}}
-        fixed: {{count}}
+        issues: "{{count}}"
+        fixed: "{{count}}"
       architecture:
-        issues: {{count}}
-        fixed: {{count}}
+        issues: "{{count}}"
+        fixed: "{{count}}"
 
   - step: 7
     name: "Complete"
@@ -133,7 +133,7 @@ steps:
     agent: "sm"
     commit_hash: "{{hash}}"
     commit_message: "feat(epic-{{epic_num}}): complete story {{story_id}}"
-    files_committed: {{count}}
+    files_committed: "{{count}}"
     sprint_status_updated: true
 
   - step: 8
@@ -153,7 +153,7 @@ quality_gates:
 
   validation:
     passed: true
-    quality_score: {{score}}
+    quality_score: "{{score}}"
     criteria:
       - "No ambiguous requirements"
       - "All issues fixed"
@@ -175,7 +175,7 @@ quality_gates:
 
   code_review:
     passed: true
-    issues_found: {{count}}
+    issues_found: "{{count}}"
     criteria:
       - "Minimum 3 issues found"
       - "All issues fixed"
@@ -189,7 +189,7 @@ artifacts:
 
   test_files:
     - path: "{{path}}"
-      test_count: {{count}}
+      test_count: "{{count}}"
 
   migrations:
     - path: "{{path}}"
