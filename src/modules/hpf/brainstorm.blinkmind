@@ -1,0 +1,251 @@
+{
+  "rootTopicKey": "85cda17f-c16b-45cb-8dc7-840e3ea5a07a",
+  "editorRootTopicKey": "85cda17f-c16b-45cb-8dc7-840e3ea5a07a",
+  "focusKey": "03c695ba-5213-42da-b538-3bb719afb6de",
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
+  "topics": [
+    {
+      "key": "f0d0d9c4-3122-44e5-ad45-47b65fca0e76",
+      "parentKey": "dfa392e1-d76a-4198-a802-7fc2f910821e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "4﻿: visual-design"
+        }
+      ]
+    },
+    {
+      "key": "a8212491-77d9-4573-ba59-bc5c0d7e8557",
+      "parentKey": "dfa392e1-d76a-4198-a802-7fc2f910821e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "2﻿: pm"
+        }
+      ]
+    },
+    {
+      "key": "284dd0f7-b8a3-41c5-ba13-749f0f99359e",
+      "parentKey": "dfa392e1-d76a-4198-a802-7fc2f910821e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "3﻿: ux design"
+        }
+      ]
+    },
+    {
+      "key": "d11d1131-704c-488f-a155-1e0ee478c988",
+      "parentKey": "85cda17f-c16b-45cb-8dc7-840e3ea5a07a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "B﻿MM"
+        }
+      ]
+    },
+    {
+      "key": "13e82569-d96d-409e-b4f4-373fb4cc75bd",
+      "parentKey": "985a0994-704b-44f8-85fc-55b1f3a0a10a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "m﻿icro_guides"
+        }
+      ]
+    },
+    {
+      "key": "985a0994-704b-44f8-85fc-55b1f3a0a10a",
+      "parentKey": "bda24bba-3264-46b6-bb49-d4778bfac757",
+      "subKeys": [
+        "13e82569-d96d-409e-b4f4-373fb4cc75bd",
+        "03c695ba-5213-42da-b538-3bb719afb6de"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "in:"
+        }
+      ]
+    },
+    {
+      "key": "8135d6b0-f1a8-4a2c-9cb5-1de4aea918f7",
+      "parentKey": "bda24bba-3264-46b6-bb49-d4778bfac757",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "o﻿utput"
+        }
+      ]
+    },
+    {
+      "key": "112fdadc-4548-49c9-8b0c-e7e31b371b36",
+      "parentKey": "85cda17f-c16b-45cb-8dc7-840e3ea5a07a",
+      "subKeys": [
+        "dfa392e1-d76a-4198-a802-7fc2f910821e"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "W﻿DS"
+        }
+      ]
+    },
+    {
+      "key": "85cda17f-c16b-45cb-8dc7-840e3ea5a07a",
+      "parentKey": null,
+      "subKeys": [
+        "d11d1131-704c-488f-a155-1e0ee478c988",
+        "112fdadc-4548-49c9-8b0c-e7e31b371b36"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "m﻿odules"
+        }
+      ]
+    },
+    {
+      "key": "03c695ba-5213-42da-b538-3bb719afb6de",
+      "parentKey": "985a0994-704b-44f8-85fc-55b1f3a0a10a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": ""
+        }
+      ]
+    },
+    {
+      "key": "dfa392e1-d76a-4198-a802-7fc2f910821e",
+      "parentKey": "112fdadc-4548-49c9-8b0c-e7e31b371b36",
+      "subKeys": [
+        "bda24bba-3264-46b6-bb49-d4778bfac757",
+        "a8212491-77d9-4573-ba59-bc5c0d7e8557",
+        "284dd0f7-b8a3-41c5-ba13-749f0f99359e",
+        "f0d0d9c4-3122-44e5-ad45-47b65fca0e76"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "a﻿gents"
+        }
+      ]
+    },
+    {
+      "key": "bda24bba-3264-46b6-bb49-d4778bfac757",
+      "parentKey": "dfa392e1-d76a-4198-a802-7fc2f910821e",
+      "subKeys": [
+        "985a0994-704b-44f8-85fc-55b1f3a0a10a",
+        "8135d6b0-f1a8-4a2c-9cb5-1de4aea918f7"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1: a﻿nalyst"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "theme3",
+      "randomColor": false,
+      "background": "#A9DEF9",
+      "highlightColor": "#50C9CE",
+      "marginH": 50,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "background": "#FF99C8",
+          "color": "#fff",
+          "fontSize": "34px",
+          "borderRadius": "5px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "background": "#FCF6BD",
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderColor": "#E4C1F9",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "14px",
+          "padding": "6px 10px 5px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "background": "#E4FDE1",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "13px",
+          "padding": "3px 9px 4px",
+          "boxShadow": "1px 1px 1px #ccc"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "1px",
+          "lineColor": "#43a9ff"
+        }
+      }
+    }
+  },
+  "formatVersion": null
+}
