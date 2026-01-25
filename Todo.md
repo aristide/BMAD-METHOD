@@ -1,0 +1,26 @@
+# Todo
+
+- [ ] Create hapiflow module
+  - [ ] Add agent creation (use system workflow)
+  - [ ] add custom skills
+    - [ ] frontend design
+    - [ ] brand-illustrator
+    - [ ] add skills workflow 
+    - [ ] Add skills generation for various agents
+      - [ ] claude
+      - [ ] kilo
+      - [ ] ...
+  - [ ] add commande generator like vscode
+  - [ ] Add or update AGENTS.md file sections
+    - [ ] project overview
+    - [ ] repository structure
+    - [ ] ....
+  - [ ] create temporal commands/ for each ide to add  my used mcp servers
+    - [ ] add mcp for lib documentation lib: docfork 
+    - [ ] add mcp for web search and trends: 
+    - [ ] add mcp for memory ?   
+  - [ ] add design preview design such as design os
+    - [ ] generate data model
+    - [ ] generate data
+    - [ ] generate and render design using a shell
+    - [ ] manage design updates and features requests
