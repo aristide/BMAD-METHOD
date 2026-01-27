@@ -1,5 +1,4 @@
 # Todo
-
 - [ ] Create hapiflow module
   - [ ] Add agent creation (use system workflow)
   - [ ] add custom skills
@@ -10,12 +9,16 @@
       - [ ] claude
       - [ ] kilo
       - [ ] ...
-  - [ ] add commande generator like vscode
+  - [ ] add code code indexing workflow using [GrepAI](https://github.com/yoanbernabeu/grepai)
+    - [ ] search sample from existing code indexed as inspiration 
+    - [ ] add local code into indexes
+    - [ ] add it into research/coding/architecture workflow
+  - [ ] add command generator like vscode
   - [ ] Add or update AGENTS.md file sections
     - [ ] project overview
     - [ ] repository structure
     - [ ] ....
-  - [ ] create temporal commands/ for each ide to add  my used mcp servers
+  - [ ] create temporal commands/ for each ide to add my mcp servers
     - [ ] add mcp for lib documentation lib: docfork 
     - [ ] add mcp for web search and trends: 
     - [ ] add mcp for memory ?   
